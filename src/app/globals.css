@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+input{
+      height: 35px;
+      width: 350px;
+      text-align: center;
+      border-radius: 5px ;
+}
+
+button:hover, input:focus{
+      outline: none;
+      box-shadow: 0px 0px 10px black;
+      transition-duration: 0.2s;
+}
+
+table, tr, td,th{
+      border:1px solid black;
+      
+}
+
+#datatable{
+      min-height: 80vh;
+}
